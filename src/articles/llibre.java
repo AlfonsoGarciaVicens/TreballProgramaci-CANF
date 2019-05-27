@@ -7,7 +7,7 @@ package articles;
 
 /**
  *
- * @author Fonso
+ * @author Fonso11
  */
 public class llibre extends Article{
     private String nomAutor;
