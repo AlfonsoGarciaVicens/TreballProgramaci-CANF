@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package articles;
+package com.canf.magatzem;
 
 /**
  *
- * @author Fonso11
+ * @author miriu
  */
-public class llibre extends Article{
-    private String nomAutor;
-    private int nroPagines;
-    private String editorial;
-    private int ISBN;
+public class Magatzem {
+    
 }

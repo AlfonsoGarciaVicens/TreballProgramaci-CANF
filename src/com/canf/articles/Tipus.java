@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package articles;
+package com.canf.articles;
 
 /**
  *
- * @author Fonso
+ * @author miriu
  */
-public abstract class Article {
-    private int referencia;
-    private String nomarticle;
-    private double preu;
-    private String tipus;
+public enum Tipus {
+    DISC, LLIBRE, PELICULA
 }
