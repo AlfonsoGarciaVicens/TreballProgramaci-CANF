@@ -19,6 +19,7 @@ public class Disc extends Article {
 
     public Disc(int referencia, String nomarticle, double preu, Tipus tipus) {
         super(referencia, nomarticle, preu, tipus);
+        System.out.println("Hola");
     }
 
     public String getIntepret() {
