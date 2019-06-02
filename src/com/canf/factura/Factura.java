@@ -6,6 +6,7 @@
 package com.canf.factura;
 
 import com.canf.articles.Article;
+import java.util.ArrayList;
 import java.util.Date;
 
 /**
@@ -14,17 +15,17 @@ import java.util.Date;
  */
 public class Factura {
 
-    private Article producte;
+    private ArrayList<Article> producte;
     private int quantitarVenuda;
     private Date data;
 
-    public Factura(Article producte, int quantitarVenuda, Date data) {
+    public Factura(ArrayList<Article> producte, int quantitarVenuda, Date data) {
         this.producte = producte;
         this.quantitarVenuda = quantitarVenuda;
         this.data = data;
     }
 
-    public Article getProducte() {
+    public ArrayList<Article> getProducte() {
         return producte;
     }
 
