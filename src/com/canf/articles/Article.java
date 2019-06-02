@@ -51,5 +51,11 @@ public abstract class Article {
     public String toString() {
         return "Article{" + "referencia=" + referencia + ", nomarticle=" + nomarticle + ", preu=" + preu + ", tipus=" + tipus + '}';
     }
+    
+    public void afegirArticleMagatzem () {
+        
+    }
+    
+   
 
 }
